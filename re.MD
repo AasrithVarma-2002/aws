@@ -1,1 +1,1 @@
-Hi bro fd dsvdsvsdv
+echo "Hi i sm learning devops"
