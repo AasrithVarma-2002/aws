@@ -1,6 +1,6 @@
 #!/bin/bash
 
-NUM=$x
+NUM=$1
 
 if [ $NUM -gt 10 ]
 then
