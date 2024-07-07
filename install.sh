@@ -7,7 +7,7 @@ VAL(){
     echo "$2"
 }
 
-if [ $UN -ne 0 ]
+if [ $UN -ge 0 ]
 then
     echo "fuck off"
     exit 1
