@@ -1,11 +1,21 @@
 #!/bin/bash
+UN=$(id -u)
 
-NUM=$1
+VAL(){
+    echo "exit status:$1"
+    echo "$2"
+}
 
-if [ $NUM -gt 10 ]
+if [ $UN -ne 0 ]
 then
-   echo "$NUM is greater than 10"
+    echo "fuck off"
+    exit 1
 else
-   echo "$NUM is less than 10"   
+    echo "you are super usr"
+fi    
 
-fi   
+dnf install mysql -y
+VAL $? "hi"
+
+dnf install git -y
+VAL $? "git"
