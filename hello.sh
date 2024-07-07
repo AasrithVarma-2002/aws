@@ -20,8 +20,8 @@ else
     echo "you are super usr"
 fi    
 
-dnf install mysql -y
+dnf install mysql -y &>>$LF
 VAL $? "hi"
 
-dnf install git -y
+dnf install git -y &>>$LF
 VAL $? "git"
