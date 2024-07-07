@@ -17,8 +17,8 @@ else
     echo "you are super usr"
 fi    
 
-dnf install mysql -y &>> $LF
+dnf install mysql -y &>>$LF
 VAL $? "hi"
 
-dnf install git -y &>> $LF
+dnf install git -y &>>$LF
 VAL $? "git"
