@@ -2,7 +2,7 @@
 
 UN=$(id -u)
 TS=$(date +%F-%H-%M-%S)
-SN=$( echo $0 | cut -d "." -f1)
+SN=$(echo $0 | cut -d "." -f1)
 LF=/tmp/$SN-$TS.log
 VAL(){
     echo "exit status:$1"
