@@ -1,8 +1,5 @@
 #!/bin/bash
 
-
-
-
 UN=$(id -u)
 TS=$(date +%F-%H-%M-%S)
 SN=$( echo $0 | cut -d "." -f1)
